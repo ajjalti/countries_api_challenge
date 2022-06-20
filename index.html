@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="api api_countrie jquery getJSON free api challenge">
+    <meta name="description" content="api_countrie_search free_challenge_frontendmentor">
+    <meta name="author" content="ahmed ajjalti">
+    <!-- jQuery -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+        <!-- Material Icon Css -->
+
+        <link
+        rel="stylesheet"
+        href="//cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css"
+      />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <title>Cuontries</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+          <div class="container">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+             <i class="mdi mdi-flag-plus text-white f-40"></i>
+              <strong>Countries</strong>
+            </a>
+            <div>
+                <select>
+                    <option value="" disabled selected>choisir la région</option>
+                    <option value="EU">European Union</option>
+                    <option value="EFTA">European Free Trade Association</option>
+                    <option value="CARICOM">Caribbean Community</option>
+                    <option value="PA">Pacific Alliance</option>
+                    <option value="AU">African Union</option>
+                    <option value="USAN">Union of South American Nations</option>
+                    <option value="EEU">Eurasian Economic Union</option>
+                    <option value="AL">Arab League</option>
+                    <option value="ASEAN">Association of Southeast Asian Nations</option>
+                    <option value="CAIS">Central American Integration System</option>
+                    <option value="CEFTA">Central European Free Trade Agreement</option>
+                    <option value="NAFTA">North American Free Trade Agreement</option>
+                    <option value="SAARC">South Asian Association for Regional Cooperation</option>
+                </select>
+                <div class="btn btn-rounded btn-outline-primary" id="search"><i class="mdi mdi-search-web text-white f-30"></i></div>
+            </div>
+          </div>
+        </div>
+      </header>
+    <!-- main -->
+    <div class="album py-5 bg-light">
+        <div class="container d-flex flex-wrap" id="main">
+            <!-- content -->
+        </div>
+    </div>
+    <footer class="container text-center mb-5">
+        &copy; made by <a href="https://www.linkedin.com/in/ahmed-ajjalti">Ahmed Ajjalti</a>
+    </footer>
+    <script src="assets/js/api.js"></script>
+  </body>
+</html>
